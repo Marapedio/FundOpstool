@@ -1,6 +1,7 @@
-
-msoffcrypto-tool
-BytesIO
-re
-streamlit
 pandas
+streamlit
+msoffcrypto-tool
+markdown-it-py
+mdurl
+pygments
+rich
