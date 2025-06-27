@@ -1,5 +1,4 @@
-
-msoffcrypto
+msoffcrypto-tool
 BytesIO
 re
 streamlit
