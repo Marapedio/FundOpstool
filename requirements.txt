@@ -5,3 +5,4 @@ markdown-it-py
 mdurl
 pygments
 rich
+openpyxl
