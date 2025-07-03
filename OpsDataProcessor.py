@@ -266,6 +266,10 @@ else:
 
                 st.subheader("Trades Overview")
                 st.dataframe(preview_data)
+                
+                total_trunc_p = combined_df['TRUNC P'].sum()
+                st.markdown(f"**Total Payment：** {total_trunc_p:,.2f}")
+
             else:
                 st.warning("Empty Data, Please Check the Excel")
 
