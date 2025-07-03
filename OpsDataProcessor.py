@@ -79,7 +79,7 @@ def parse_text_to_dataframes(text):
         "Platform Fee": [dfs["Funder Transaction"].loc[dfs["Funder Transaction"]["Key"] == "Platform Fee", "Value"].values[0]],
         "Spreading": [dfs["FundPark Transaction"].loc[dfs["FundPark Transaction"]["Key"] == "FundPark Spreading", "Value"].values[0]],
         "Total Amount": [dfs["Payment Details"].loc[dfs["Payment Details"]["Key"] == "Actual Received Amount", "Value"].values[0]],
-        "Sub": [abs(float(dfs["Waive Items"].loc[dfs["Waive Items"]["Key"] == "Bank Charge", "Value"].values[0]))],
+        "Sub": [abs(float(dfs["Payment Details"].loc[dfs["Payment Details"]["Key"] == "Bank Charge", "Value"].values[0]))],
         "Transfer Acc": [Transfer_acc],
         "CSV": [""],
         "Maker": [Maker_name]
